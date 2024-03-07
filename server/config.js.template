@@ -1,0 +1,10 @@
+const dbConnectInfo = {
+	ip: "",
+	port: "3306",
+	database: "",
+	user: "",
+	password: "",
+	dialect: "mysql",
+}
+
+export default dbConnectInfo;

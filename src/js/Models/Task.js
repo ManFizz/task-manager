@@ -2,23 +2,22 @@ class Task {
 	constructor({
       title,
       content = '',
-      dateHistory = [],
-      dateDeadline = null,
-      tagList = [],
+      dateEnd = null,
       author = null,
       priority = null,
-			type = null,
     }) {
 		this.title = title;
-		//this.workspace
 		this.content = content;
-		this.dateHistory = dateHistory;
-		this.dateDeadline = dateDeadline;
-		this.tagList = tagList;
+		this.dateEnd = dateEnd;
 		this.author = author;
 		this.priority = priority;
-		this.type = type;
-		//this.childs
+
+		this.project = null;
+		this.tagList = null;
+		this.dateHistory = null;
+		this.childList = null;
+		this.memberList = null;
+		this.status = null;
 	}
 }
 
